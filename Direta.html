@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemática Direta</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Cinemática Direta</h1>
+    </div>
+    <div class="content">
+        <p class="info">
+            Insira os valores corretamente nas caixas de texto.
+        </p>
+
+        <div class="value">
+            <div>
+                Primeiro Elo
+                <input type="number" name="elo1" id="elo1" placeholder="Tamanho do Primeiro Elo" min="0">
+            </div>
+
+            <div>
+                Segundo Elo
+                <input type="number" name="elo2" id="elo2" placeholder="Tamanho do Segundo Elo" min="0">
+            </div>
+
+            <div>
+                Primeiro Ângulo
+                <input type="number" name="ang1" id="ang1" placeholder="Valor do Primeiro Ângulo">
+            </div>
+
+            <div>
+                Segundo Ângulo
+                <input type="number" name="ang1" id="ang2" placeholder="Valor do Segundo Ângulo">
+            </div>
+
+            <div class="button">
+                <button onclick="calcular ()">Calcular (x,y)</button>
+            </div>
+        </div>
+
+        <div>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="./cinedir.js"></script>
+</body>
+</html>
